@@ -17,8 +17,8 @@ require("settings")
 -- ** Load lazy ** 
 require("lazy").setup("plugins")
 -- ***************-
-require("keymap")
 require("ui")
+require("keymap")
 
 
 
