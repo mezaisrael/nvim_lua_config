@@ -17,4 +17,5 @@ vim.keymap.set('n', '<C-k>', '<C-w>k', {desc = 'up'})
 vim.keymap.set('n', '<leader>hi', ':nohl<CR>', {desc = 'clear search highlight'})
 
 -- terminal
-vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]])
+vim.keymap.set('t', 'kj', [[<C-\><C-n>]])
+
