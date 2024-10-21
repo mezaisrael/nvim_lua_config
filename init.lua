@@ -11,6 +11,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     lazypath,
   })
 end
+
 vim.opt.rtp:prepend(lazypath)
 
 require("settings")
@@ -19,6 +20,5 @@ require("lazy").setup("plugins")
 -- ***************-
 require("ui")
 require("keymap")
-
 
 

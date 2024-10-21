@@ -16,6 +16,14 @@ vim.keymap.set('n', '<C-k>', '<C-w>k', {desc = 'up'})
 --highlight
 vim.keymap.set('n', '<leader>hi', ':nohl<CR>', {desc = 'clear search highlight'})
 
+-- delete instead or cut
+vim.keymap.set('n', 'd', '"_d', {desc = 'delete instead of cutj'})
+
+-- cut
+vim.keymap.set('n', '<leader>d', 'd', {desc='cut'} )
+
+
 -- terminal
 vim.keymap.set('t', 'kj', [[<C-\><C-n>]])
+
 
