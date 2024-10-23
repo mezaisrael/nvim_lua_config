@@ -17,3 +17,9 @@ vim.wo.number = true
 
 vim.cmd("set clipboard+=unnamedplus")
 
+
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+vim.opt.splitright = true
+vim.opt.splitbelow = true

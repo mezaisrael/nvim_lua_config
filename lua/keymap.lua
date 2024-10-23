@@ -26,4 +26,7 @@ vim.keymap.set('n', '<leader>d', 'd', {desc='cut'} )
 -- terminal
 vim.keymap.set('t', 'kj', [[<C-\><C-n>]])
 
+--sessions 
+vim.keymap.set('n', ',s', ':source ~/.vim/sessions/', {desc = 'look for sessions'})
 
+vim.keymap.set('n', ',ms', ':mksession ~/.vim/sessions/', {desc = 'make session'})
